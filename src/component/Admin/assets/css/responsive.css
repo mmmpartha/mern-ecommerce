@@ -1,0 +1,112 @@
+/* Responsive CSS Document */
+
+/* 
+    Created on   : 19/06/2021.
+    Theme Name   : Deski-Saas & Software HTML Template
+    Version      : 1.0.
+    Developed by : (me@heloshape.com) / (www.me.heloshape.com)
+   
+*/
+
+
+/*(min-width: 992px) and (max-width: 1199px)*/
+
+@media (max-width: 991px) {
+  .title-style-five h2 {
+    font-size: 40px;
+  }
+
+  .title-style-one h2 {
+    font-size: 42px;
+  }
+
+  .title-style-two h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+
+  .title-style-three h2 {
+    font-size: 38px;
+  }
+
+  .title-style-five h2 span:before {
+    height: 10px;
+  }
+
+  .title-style-five h6 {
+    font-size: 16px;
+    padding-bottom: 5px;
+  }
+
+  .title-style-two p {
+    font-size: 15px;
+  }
+
+  .title-style-three p {
+    font-size: 15px;
+    padding-bottom: 8px;
+  }
+
+  .title-style-four h2 {
+    font-size: 40px;
+    line-height: 1.2em;
+  }
+
+  .title-style-four h6 {
+    font-size: 18px;
+    padding-bottom: 10px;
+  }
+
+  .title-style-two .sub-text {
+    font-size: 20px;
+  }
+
+  .title-style-six h6 {
+    font-size: 15px;
+    padding-bottom: 15px;
+  }
+
+  .title-style-six h2 {
+    font-size: 45px;
+  }
+
+  .title-style-seven h2 {
+    font-size: 38px;
+  }
+
+  .title-style-six .text-xs {
+    font-size: 18px;
+    padding-top: 25px;
+  }
+
+  body .theme-btn-five {
+    line-height: 50px;
+    padding: 0 25px;
+    min-width: 155px;
+  }
+
+  .main-page-wrapper {
+    padding-top: 99px;
+  }
+
+  .user-data-page .form-wrapper {
+    width: 100%;
+  }
+
+  .user-data-page .illustration-wrapper {
+    display: none !important;
+  }
+
+  .user-data-page .form-wrapper {
+    padding: 40px 15px 25px;
+  }
+
+  .user-data-page .form-wrapper h2 {
+    font-size: 38px;
+  }
+
+  .user-data-page .form-wrapper .header-info {
+    font-size: 18px;
+  }
+
+}

@@ -1,0 +1,8 @@
+.text-end {
+  display: flex;
+  text-align: center;
+}
+
+.mt-15 {
+  margin-left: 10px;
+}
