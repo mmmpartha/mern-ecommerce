@@ -39,13 +39,13 @@ const UpdateProduct = ({ history, match }) => {
   const [imagesPreview, setImagesPreview] = useState([]);
 
   const categories = [
-    "Laptop",
-    "Footwear",
-    "Bottom",
-    "Tops",
-    "Attire",
-    "Camera",
-    "SmartPhones",
+    "Hero Electric Flash LX",
+    "Hero Electric Atria LX",
+    "Hero Electric NYX HS500 ER",
+    "Hero Electric Optima CX - Single Battery",
+    "Hero Electric Optima CX - Dual Battery",
+    "Hero Electric Photon LP",
+    "Hero Eddy",
   ];
 
   const productId = match.params.id;
