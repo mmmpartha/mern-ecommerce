@@ -1,6 +1,10 @@
 import React from "react";
 import { ReactNavbar } from "overlay-navbar";
 import logo from "../../../images/logo.png";
+import { Link } from "react-router-dom";
+import { BiLogIn } from 'react-icons/bi';
+import { FaSearch } from 'react-icons/fa';
+import { HiOutlineShoppingCart } from 'react-icons/hi';
 
 const options = {
   burgerColorHover: "#eb4034",
@@ -36,7 +40,26 @@ const options = {
 };
 
 const Header = () => {
-  return <ReactNavbar {...options} />;
+  return (
+    <>
+      <nav>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="bx bx-menu"></i>
+        </label>
+        <label class="logo">RK MOTORS</label>
+        <ul>
+          <li><Link to="/" class="active">Home</Link></li>
+          <li><Link to="/products">Products</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+          <li><Link to="/about">About</Link></li>
+          <li><Link to="/login"><BiLogIn />Login</Link></li>
+          <li><Link to="/search"><FaSearch />Search</Link></li>
+          <li><Link to="/cart"><HiOutlineShoppingCart />Cart</Link></li>
+        </ul>
+      </nav>
+    </>
+  )
 };
 
 export default Header;
