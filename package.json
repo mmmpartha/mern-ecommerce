@@ -58,8 +58,5 @@
       "last 1 safari version"
     ]
   },
-  "proxy": "https://ecommerce-server-lp1j.onrender.com",
-  "devDependencies": {
-    "gh-pages": "^5.0.0"
-  }
+  "proxy": "https://ecommerce-server-lp1j.onrender.com"
 }
