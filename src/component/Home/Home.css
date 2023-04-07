@@ -23,7 +23,6 @@
 }
 
 .banner>a>button {
-  margin-bottom: 5vmax;
   cursor: pointer;
   background-color: white;
   border: 1px solid white;
