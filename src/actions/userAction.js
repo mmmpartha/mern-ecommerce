@@ -71,7 +71,6 @@ export const register = (userData) => async (dispatch) => {
     dispatch({
       type: REGISTER_USER_FAIL,
       payload: error.response.data.message,
-      console.log("register_error",error.response)
     });
   }
 };
