@@ -80,7 +80,7 @@ export const loadUser = () => async (dispatch) => {
   try {
     dispatch({ type: LOAD_USER_REQUEST });
 
-    const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "multipart/form-data" } };
+    const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "Content-Type: text/javascript" } };
 
     const { data } = await axios.get(`https://ecommerce-server-lp1j.onrender.com/api/v1/me`);
 
