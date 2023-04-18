@@ -82,7 +82,7 @@ export const loadUser = () => async (dispatch) => {
 
     const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "Content-Type: text/javascript" } };
 
-    const { data } = await axios.get(`https://ecommerce-mern-boa3.onrender.com/api/v1/me`);
+    const { data } = await axios.get(`/api/v1/me`);
 
     dispatch({ type: LOAD_USER_SUCCESS, payload: data.user });
   } catch (error) {
