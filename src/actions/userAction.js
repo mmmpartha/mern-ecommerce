@@ -43,7 +43,7 @@ export const login = (email, password) => async (dispatch) => {
   try {
     dispatch({ type: LOGIN_REQUEST });
 
-    const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "application/json" } };
+    const config = { headers: { 'Access-Control-Allow-Origin': 'https://ecommerce-mern-boa3.onrender.com/', Accept: 'application/json', "Content-Type": "application/json" } };
 
     const { data } = await axios.post(
       `https://ecommerce-server-lp1j.onrender.com/api/v1/login`,
@@ -62,7 +62,7 @@ export const register = (userData) => async (dispatch) => {
   try {
     dispatch({ type: REGISTER_USER_REQUEST });
 
-    const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "multipart/form-data" } };
+    const config = { headers: { 'Access-Control-Allow-Origin': 'https://ecommerce-mern-boa3.onrender.com/', Accept: 'application/json', "Content-Type": "multipart/form-data" } };
 
     const { data } = await axios.post(`https://ecommerce-server-lp1j.onrender.com/api/v1/register`, userData, config);
 
@@ -80,7 +80,7 @@ export const loadUser = () => async (dispatch) => {
   try {
     dispatch({ type: LOAD_USER_REQUEST });
 
-    const config = { headers: { 'Access-Control-Allow-Origin': '*', Accept: 'application/json', "Content-Type": "Content-Type: text/javascript" } };
+    const config = { headers: { 'Access-Control-Allow-Origin': 'https://ecommerce-mern-boa3.onrender.com/', Accept: 'application/json', "Content-Type": "Content-Type: text/javascript" } };
 
     const { data } = await axios.get(`https://ecommerce-mern-boa3.onrender.com/api/v1/me`);
 
