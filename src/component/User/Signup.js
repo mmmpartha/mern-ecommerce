@@ -4,7 +4,7 @@ import Loader from "../layout/Loader/Loader";
 import { useDispatch, useSelector } from "react-redux";
 import { clearErrors, register } from "../../actions/userAction";
 import { useAlert } from "react-alert";
-import logo from "./images/assets/digitan_logo.png"
+import logo from "./images/assets/logo.png"
 import { Link } from "react-router-dom";
 
 const SignUp = ({ history, location }) => {

@@ -10,7 +10,7 @@ body {
 }
 
 .container {
-    margin-top: -150px;
+    margin-top: -250px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -181,12 +181,14 @@ body {
 }
 
 .loginlogo {
+    margin-top: 100px;
     height: 150px;
     margin-left: 800px;
 }
 
 .title {
-    color: aliceblue;
+    margin-bottom: 80px;
+    color: #394c7e;
     font-size: 60px;
     margin-left: 830px;
 }
